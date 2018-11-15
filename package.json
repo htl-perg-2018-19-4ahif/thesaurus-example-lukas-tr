@@ -1,0 +1,28 @@
+{
+  "name": "thesaurus-example-lukas-tr",
+  "version": "1.0.0",
+  "description": "Your job is to implement a command-line [Thesaurus](https://en.wikipedia.org/wiki/Thesaurus) tool in Node.js using TypeScript. Use the [openthesaurus.de](https://www.openthesaurus.de/) word database as the data source for your tool. You can download the database in text format [here](https://www.openthesaurus.de/export/OpenThesaurus-Textversion.zip).",
+  "main": "thesaurus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "build:watch": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htl-perg-2018-19-4ahif/thesaurus-example-lukas-tr.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/htl-perg-2018-19-4ahif/thesaurus-example-lukas-tr/issues"
+  },
+  "homepage": "https://github.com/htl-perg-2018-19-4ahif/thesaurus-example-lukas-tr#readme",
+  "devDependencies": {
+    "@types/node": "^10.12.8",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "line-by-line": "^0.1.6"
+  }
+}
